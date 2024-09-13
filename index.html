@@ -3,29 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MarkAnthonyLafuente</title>
-    <link rel="stylesheet" href="Style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="design.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <header class="header">
+        <a href="#" class="logo"><span>Mark </span>Lafuente</a>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experiences</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+        <nav class="navbar">
+            <a href="#" class="active">Portfolio</a>
+            <a href="#">Services</a>
+            <a href="#">Experience</a>
+            <a href="#">Projects</a>
+            <a href="#">Education</a>
+        </nav>
 
-    <section class="hero">
-        <div class="profile-container">
-            <img src="picture.png" alt="Profile Picture" class="profile-img">
-            <h1>Mark Anthony Lafuente</h1>
-            <p class="description">I'm dedicated in improving my skills and using them to make a real difference in a company's growth and success.
-                I am to work with a strong team, encouraging creativity and quality that lead to meaningful results and long term success.
-            </p>
+        <a href="#" class="contact">Contact Me</a>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+
+            <h1>I'm <span>MarkLafuente </span>a Frontend Developer</h1>
+
+            <p>I'm dedicated in improving my skills and using them to make a real difference in a company's growth and success.
+                I am to work with a strong team, encouraging creativity and quality that lead to meaningful results and long term success.</p>
+            
+            <div class="btn-box">
+                <button class="btn-1">Hire Me</button>
+                <button class="btn-2">Experience</button>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="picture.png" alt="">
         </div>
     </section>
 
+    <section class="about">
+        <div class="about-image">
+            <img src="picture.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend <span>Developer</span></h3>
+            <p>Hi! I'm Mark Anthony Lafuente. I love watching anime and reading manga/manhua in my free time . I also enjoy watching YouTube videos
+                that help me improve my coding skilks. When I'm not diving into those, I like playing online games like Valorant, Call of Duty Mobile (CODM),
+                and Mobile Legends. These hobbies keeps me entertained and help me grow, both in skills and in fun!</p>
+            <a href="#" class="btn-2">Experience</a>
+        </div>
+    </section>
+    
+    <section class="contact-form">
+        <h2 class="contact-me">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="input-box"></div>
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="Submit" value="Send Message" class="btn-1">
+        </form>
+    </section>
 </body>
 </html>
